@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:orientation="vertical"
+    android:padding="0dp" >
+    
+    <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="#000000"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="jebo"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:text="아래 목록 이외에 더많은 물품이 있습니다. 본 어플에 있는 목록에 누락된 정보나 없는데 추가된 목록이 있을 수 있으니 유의 바랍니다."
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="카테고리"
+            android:textColor="@color/middle_black"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinnerchapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="0px"
+            android:layout_height="0.0dp"
+            android:layout_weight="0"
+            android:onClick="mOnClick"
+            android:text="뒷장" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="5dp"
+        android:background="#00000000" />
+
+</LinearLayout>

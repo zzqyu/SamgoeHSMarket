@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">플리마켓</string>
+    <string name="version">1.2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tile1">- 자기계발서\n- 소설\n- 시 등 기타</string>
+    <string name="tile2">- 과목별 문제집\n- 수능 문제집</string>
+    <string name="tile3">- 문구류\n- 생활용품\n- 스포츠용품</string>
+    <string name="tile4">- 패션잡화\n- 상의\n- 하의</string>
+    <string name="info_when">7월 18일 점심시간\n7월 19일 8시30분~13시</string>
+    <string name="info_suik">불우이웃에게 쓰일 예정\n 자세한 사항 미정</string>
+    <string name="info_suik...">옆 화살표를 누르면 자세한\n사항을 알 수 있습니다.</string>
+    <string name="set_play">화살표를 누르면 play 스토어\n어플 페이지로 이동합니다.</string>
+
+    <!-- 도서 -->
+    <!-- 소설/수필 -->
+    <string name="book1_title_1">까레이스키</string>
+    <string name="book1_price_1">-</string>
+    <string name="book1_donate_1">3-2 신유림</string>
+    <string name="book1_stork_1">1개</string>
+    
+    <string name="book1_title_2">끝없는 방황</string>
+    <string name="book1_price_2">-</string>
+    <string name="book1_donate_2">3-2 신유림</string>
+    <string name="book1_stork_2">1개</string>
+    
+    <string name="book1_title_3">모랫말 아이들</string>
+    <string name="book1_price_3">-</string>
+    <string name="book1_donate_3">3-2 황인범</string>
+    <string name="book1_stork_3">1개</string>
+    
+    <string name="book1_title_4">어른을 위한 새빨간 거짓말</string>
+    <string name="book1_price_4">-</string>
+    <string name="book1_donate_4">3-4 이유림</string>
+    <string name="book1_stork_4">1개</string>
+    
+    <string name="book1_title_5">초록빛 꿈을 꾸는 아이</string>
+    <string name="book1_price_5">-</string>
+    <string name="book1_donate_5">3-1 정재선</string>
+    <string name="book1_stork_5">1개</string>
+    
+    <string name="book1_title_6">틈새</string>
+    <string name="book1_price_6">-</string>
+    <string name="book1_donate_6">3-1 이종현</string>
+    <string name="book1_stork_6">1개</string>
+
+    
+    <!-- 과학도서 -->
+    <string name="book2_title_1">구멍에서 발견한 과학</string>
+    <string name="book2_price_1">-</string>
+    <string name="book2_donate_1">1-1 정승홍</string>
+    <string name="book2_stork_1">1개</string>
+    
+    <string name="book2_title_2">상대성 이론</string>
+    <string name="book2_price_2">-</string>
+    <string name="book2_donate_2">2-4 권태호</string>
+    <string name="book2_stork_2">1개</string>
+    
+    <string name="book2_title_3">카오스</string>
+    <string name="book2_price_3">-</string>
+    <string name="book2_donate_3">2-4 권태호</string>
+    <string name="book2_stork_3">1개</string>
+
+    <!-- 만화/판타지 -->
+    <string name="book3_title_1">코믹 메이플스토리</string>
+    <string name="book3_price_1">-</string>
+    <string name="book3_donate_1">3-4 심하은, 최관오</string>
+    <string name="book3_stork_1">2개</string>
+    
+    <string name="book3_title_2">흑마법사 무림에 가다 1~14권</string>
+    <string name="book3_price_2">-</string>
+    <string name="book3_donate_2">2-2 백요한</string>
+    <string name="book3_stork_2">각각 1개</string>
+
+    
+    <!-- 시/동화 -->
+    <string name="book4_title_1">개땅쇠</string>
+    <string name="book4_price_1">-</string>
+    <string name="book4_donate_1">3-1 정재선</string>
+    <string name="book4_stork_1">1개</string>
+    
+    <string name="book4_title_2">난 빨강</string>
+    <string name="book4_price_2">-</string>
+    <string name="book4_donate_2">3-4 김정규</string>
+    <string name="book4_stork_2">1개</string>
+    
+    <string name="book4_title_3">한국인이 뽑은 김소월의 명시 모음집</string>
+    <string name="book4_price_3">-</string>
+    <string name="book4_donate_3">1-1 김장준</string>
+    <string name="book4_stork_3">1개</string>
+
+    
+    <!-- 자기계발서/진로 -->
+    <string name="book5_title_1">배려</string>
+    <string name="book5_price_1">-</string>
+    <string name="book5_donate_1">2-4 김정규</string>
+    <string name="book5_stork_1">1개</string>
+    
+    <string name="book5_title_2">재미있는 학과여행 1,2</string>
+    <string name="book5_price_2">-</string>
+    <string name="book5_donate_2">3-2 강수연</string>
+    <string name="book5_stork_2">각각 1개</string>
+
+    <!-- ___________________________________________________________ -->
+
+
+    <!-- 문제집 -->
+    <!-- 수능문제집 -->
+    <!-- 타이틀, 가격, 기부자, 수량 -->
+    <string name="workbook1_title_1">2013 수능특강(국어B형, 수학, 영어B형)</string>
+    <string name="workbook1_price_1">각각 2000원</string>
+    <string name="workbook1_donate_1">-</string>
+    <string name="workbook1_stork_1">-</string>
+    
+    <string name="workbook1_title_2">2013 인터넷 수능(문학B형, 화법·작문·독서·문법B형)</string>
+    <string name="workbook1_price_2">각각 2000원</string>
+    <string name="workbook1_donate_2">-</string>
+    <string name="workbook1_stork_2">-</string>
+    
+    <string name="workbook1_title_3">2013 수능N제(영어B형)</string>
+    <string name="workbook1_price_3">3000원</string>
+    <string name="workbook1_donate_3">-</string>
+    <string name="workbook1_stork_3">-</string>
+    
+    <string name="workbook1_title_4">수능개념 생활과 윤리</string>
+    <string name="workbook1_price_4">-</string>
+    <string name="workbook1_donate_4">3-2 오세욱</string>
+    <string name="workbook1_stork_4">1개</string>
+    
+    <string name="workbook1_title_5">수능개념 한국지리</string>
+    <string name="workbook1_price_5">-</string>
+    <string name="workbook1_donate_5">3-2 오세욱</string>
+    <string name="workbook1_stork_5">1개</string>
+    
+    <string name="workbook1_title_6">수능기출 플러스 언어영역</string>
+    <string name="workbook1_price_6">-</string>
+    <string name="workbook1_donate_6">2-4 권태호</string>
+    <string name="workbook1_stork_6">1개</string>
+    
+    <string name="workbook1_title_7">수능길잡이 문학</string>
+    <string name="workbook1_price_7">-</string>
+    <string name="workbook1_donate_7">3-2 김윤지</string>
+    <string name="workbook1_stork_7">1개</string>
+    
+    <string name="workbook1_title_8">수능길잡이 수I</string>
+    <string name="workbook1_price_8">-</string>
+    <string name="workbook1_donate_8">2-3 백지원</string>
+    <string name="workbook1_stork_8">1개</string>
+    
+    <string name="workbook3_title_9">포스 고전문학</string>
+    <string name="workbook3_price_9">-</string>
+    <string name="workbook3_donate_9">3-2 백요한 외 1명</string>
+    <string name="workbook3_stork_9">2개</string>
+    
+    <!-- 수학문제집 -->
+
+    <string name="workbook2_title_1">자이스토리 고1</string>
+    <string name="workbook2_price_1">-</string>
+    <string name="workbook2_donate_1">2-3 백지원</string>
+    <string name="workbook2_stork_1">1개</string>
+    
+    <string name="workbook2_title_2">개념유형플러스 개념편 수1</string>
+    <string name="workbook2_price_2">-</string>
+    <string name="workbook2_donate_2">3-2 강수연</string>
+    <string name="workbook2_stork_2">1개</string>
+    
+    <string name="workbook2_title_3">메가스터디 적통, 기벡</string>
+    <string name="workbook2_price_3">각각 원</string>
+    <string name="workbook2_donate_3">3-4 김준수</string>
+    <string name="workbook2_stork_3">각각 1개</string>
+    
+    <string name="workbook2_title_4">개념 쎈 (고1 상)</string>
+    <string name="workbook2_price_4">원</string>
+    <string name="workbook2_donate_4">1-8 김화영</string>
+    <string name="workbook2_stork_4">1개</string>
+    
+    <string name="workbook2_title_5">개념 원리 (고1 상)</string>
+    <string name="workbook2_price_5">원</string>
+    <string name="workbook2_donate_5">1-8 김화영</string>
+    <string name="workbook2_stork_5">1개</string>
+
+    
+    <!-- 언어문제집 -->
+    <string name="workbook3_title_1">언어의 기술1</string>
+    <string name="workbook3_price_1">3000원</string>
+    <string name="workbook3_donate_1">2-4 권태호 외 1명</string>
+    <string name="workbook3_stork_1">2개</string>
+    
+    <string name="workbook3_title_2">언어의 기술2</string>
+    <string name="workbook3_price_2">3000원</string>
+    <string name="workbook3_donate_2">2-4 권태호</string>
+    <string name="workbook3_stork_2">1개</string>
+    
+    <string name="workbook3_title_3">해법문학 (고전산문, 소설문학, 시문학)</string>
+    <string name="workbook3_price_3">-</string>
+    <string name="workbook3_donate_3">3-2 임규현</string>
+    <string name="workbook3_stork_3">각각 1개</string>
+    
+    <string name="workbook3_title_4">비문학쫑내기</string>
+    <string name="workbook3_price_4">-</string>
+    <string name="workbook3_donate_4">3-3 이은송</string>
+    <string name="workbook3_stork_4">1개</string>
+    
+    <string name="workbook3_title_5">숨마쿰라우데 비문학 강화 언어·예술</string>
+    <string name="workbook3_price_5">-</string>
+    <string name="workbook3_donate_5">3-2 백요한</string>
+    <string name="workbook3_stork_5">1개</string>
+    
+    <string name="workbook3_title_6">언어영역 고전시가 특강 (교사용)</string>
+    <string name="workbook3_price_6">-</string>
+    <string name="workbook3_donate_6">3-2 전나윤</string>
+    <string name="workbook3_stork_6">1개</string>
+    
+    <string name="workbook3_title_7">언어유형 특강</string>
+    <string name="workbook3_price_7">-</string>
+    <string name="workbook3_donate_7">원은선 선생님</string>
+    <string name="workbook3_stork_7">1개</string>
+    
+    <string name="workbook3_title_8">오감도 쓰기 어휘 어법편</string>
+    <string name="workbook3_price_8">-</string>
+    <string name="workbook3_donate_8">3-2 백요한</string>
+    <string name="workbook3_stork_8">1개</string>
+    
+    <string name="workbook3_title_9">포스 고전문학</string>
+    <string name="workbook3_price_9">-</string>
+    <string name="workbook3_donate_9">3-2 백요한 외 1명</string>
+    <string name="workbook3_stork_9">2개</string>
+    
+    <string name="workbook3_title_10">포스 문학1</string>
+    <string name="workbook3_price_10">-</string>
+    <string name="workbook3_donate_10">2-4 강창희</string>
+    <string name="workbook3_stork_10">1개</string>
+
+    
+    <!-- 영어문제집 -->
+    <string name="workbook4_title_1">천일문 Basic</string>
+    <string name="workbook4_price_1">3000원</string>
+    <string name="workbook4_donate_1">-</string>
+    <string name="workbook4_stork_1">2개</string>
+    
+    <string name="workbook4_title_2"> 세모구 (영어)</string>
+    <string name="workbook4_price_2">-원</string>
+    <string name="workbook4_donate_2">3-3 김민철</string>
+    <string name="workbook4_stork_2">1개</string>
+    
+    <string name="workbook4_title_3">ENGLISH READING 영문독해 구문편</string>
+    <string name="workbook4_price_3">-원</string>
+    <string name="workbook4_donate_3">2-4 권태호</string>
+    <string name="workbook4_stork_3">1개</string>
+    
+    <string name="workbook4_title_4">SSOL 기본영어 문제집 (교사용)</string>
+    <string name="workbook4_price_4">-원</string>
+    <string name="workbook4_donate_4">3-2 유민식</string>
+    <string name="workbook4_stork_4">1개</string>
+    
+    <string name="workbook4_title_5">능률VOCA(어원,숙어편)</string>
+    <string name="workbook4_price_5">-원</string>
+    <string name="workbook4_donate_5">2-4 권태호</string>
+    <string name="workbook4_stork_5">각각 1개</string>
+    
+    <string name="workbook4_title_6">리더스 뱅크 LEVEL4</string>
+    <string name="workbook4_price_6">-원</string>
+    <string name="workbook4_donate_6">2-3 백지원</string>
+    <string name="workbook4_stork_6">1개</string>
+    
+    <string name="workbook4_title_7">빠바 영어독해 문제집</string>
+    <string name="workbook4_price_7">-원</string>
+    <string name="workbook4_donate_7">3-2 양애리</string>
+    <string name="workbook4_stork_7">1개</string>
+    
+    <string name="workbook4_title_8">쎄듀 독해모의고사</string>
+    <string name="workbook4_price_8">-원</string>
+    <string name="workbook4_donate_8">2-4 권태호</string>
+    <string name="workbook4_stork_8">1개</string>
+    
+    <string name="workbook4_title_9">외국어 특강 유형편</string>
+    <string name="workbook4_price_9">-원</string>
+    <string name="workbook4_donate_9">3-3 이은송</string>
+    <string name="workbook4_stork_9">1개</string>
+    
+    <string name="workbook4_title_10">미래로 수능기출 문제집 5개년 외국어 독해 (교사용)</string>
+    <string name="workbook4_price_10">-원</string>
+    <string name="workbook4_donate_10">3-2 전나윤</string>
+    <string name="workbook4_stork_10">1개</string>
+
+    
+    <!-- 문제집 사탐 -->
+    <string name="workbook5_title_1">탐스런 한국지리</string>
+    <string name="workbook5_price_1">2000원</string>
+    <string name="workbook5_donate_1">3-2 전나윤 외 2명</string>
+    <string name="workbook5_stork_1">3개</string>
+    
+    <string name="workbook5_title_2">1등급 만들기 (법과정치)</string>
+    <string name="workbook5_price_2">-원</string>
+    <string name="workbook5_donate_2">3-2 김윤지</string>
+    <string name="workbook5_stork_2">1개</string>
+    
+    <string name="workbook5_title_3">우공비 한국사</string>
+    <string name="workbook5_price_3">-원</string>
+    <string name="workbook5_donate_3">3-2 심상용</string>
+    <string name="workbook5_stork_3">1개</string>
+
+    
+    <!-- 문제집 과탐 -->
+
+    <string name="workbook6_title_1">우공비 생명과학I</string>
+    <string name="workbook6_price_1">-원</string>
+    <string name="workbook6_donate_1">3-4 김정규</string>
+    <string name="workbook6_stork_1">1개</string>
+    
+    <string name="workbook6_title_2">2012 자이스토리 화학II (교과과정 개정 전 문제집)</string>
+    <string name="workbook6_price_2">-원</string>
+    <string name="workbook6_donate_2">3-4 김준수</string>
+    <string name="workbook6_stork_2">1개</string>
+
+    
+    <!-- 기타 -->
+
+    <string name="workbook7_title_1">sisite 적성검사 유형기본편</string>
+    <string name="workbook7_price_1">-원</string>
+    <string name="workbook7_donate_1">3-4 김호진</string>
+    <string name="workbook7_stork_1">1개</string>
+    
+    <string name="workbook7_title_2">국어능력검정시험</string>
+    <string name="workbook7_price_2">-원</string>
+    <string name="workbook7_donate_2">원은선 선생님</string>
+    <string name="workbook7_stork_2">1개</string>
+    
+    <string name="workbook7_title_3">사전이 필요없는 상공회의소 한자노트 3급</string>
+    <string name="workbook7_price_3">-원</string>
+    <string name="workbook7_donate_3">3-2 전나윤</string>
+    <string name="workbook7_stork_3">1개</string>
+    
+    <string name="workbook7_title_4">세종대 올킬 적성모의고사</string>
+    <string name="workbook7_price_4">-원</string>
+    <string name="workbook7_donate_4">3-1 김소영</string>
+    <string name="workbook7_stork_4">1개</string>
+    
+    <string name="workbook7_title_5">쎈 중3</string>
+    <string name="workbook7_price_5">-원</string>
+    <string name="workbook7_donate_5">2-3 백지원</string>
+    <string name="workbook7_stork_5">1개</string>
+    
+    <string name="workbook7_title_6">한번만 읽으면 확잡히는 (생물, 화학)</string>
+    <string name="workbook7_price_6">각각 -원</string>
+    <string name="workbook7_donate_6">3-2 이은령</string>
+    <string name="workbook7_stork_6">각각 1개</string>
+    
+    <string name="workbook7_title_7">한자능력 검정시험 3급</string>
+    <string name="workbook7_price_7">-원</string>
+    <string name="workbook7_donate_7">3-4 문지호</string>
+    <string name="workbook7_stork_7">1개</string>
+
+    
+    <!-- ___________________________________________________________ -->
+    <!-- 문구/생활용품 -->
+    <!-- 문구 -->
+    <string name="sundies1_title_1">공책류(노트, 오답노트, 단어장)</string>
+    <string name="sundies1_price_1">100~1000원</string>
+    <string name="sundies1_donate_1">3-1김재현(2), 2-3백지원\n문예지 선생님, 3-1박지현\n2-3류희원</string>
+    <string name="sundies1_stork_1">10개</string>
+    
+    <string name="sundies1_title_2">그리기 용품(색연필, 포스터물감, 한국화 물감)</string>
+    <string name="sundies1_price_2">색연필 700원 물감1000원</string>
+    <string name="sundies1_donate_2">3-4 심하은(2),이혜인</string>
+    <string name="sundies1_stork_2">각각 1개</string>
+    
+    <string name="sundies1_title_3">놀이 용품(공기, 퍼즐(2))</string>
+    <string name="sundies1_price_3">공기 200원, 퍼즐1000원</string>
+    <string name="sundies1_donate_3">3-1황미연,황다운, 문예지 선생님</string>
+    <string name="sundies1_stork_3">공기1개 퍼즐3개</string>
+    
+    <string name="sundies1_title_4">다이어리(2)</string>
+    <string name="sundies1_price_4">200~1000원</string>
+    <string name="sundies1_donate_4">-</string>
+    <string name="sundies1_stork_4">10개</string>
+    
+    <string name="sundies1_title_5">인형</string>
+    <string name="sundies1_price_5">-</string>
+    <string name="sundies1_donate_5">2-3류희원</string>
+    <string name="sundies1_stork_5">1개</string>
+    
+    <string name="sundies1_title_6">책갈피</string>
+    <string name="sundies1_price_6">-</string>
+    <string name="sundies1_donate_6">2-4 이상준, 3-1 서성근</string>
+    <string name="sundies1_stork_6">2개</string>
+    
+    <string name="sundies1_title_7">파일류</string>
+    <string name="sundies1_price_7">100원~1000원</string>
+    <string name="sundies1_donate_7">3-2양애리, 3-4심하은, 차한솔</string>
+    <string name="sundies1_stork_7">7개</string>
+    
+    <string name="sundies1_title_8">필기도구(볼펜, 연필, 컴퓨터용사인펜)</string>
+    <string name="sundies1_price_8">100~원</string>
+    <string name="sundies1_donate_8">김지숙 선생님, 문예지 선생님\n2-3류희원, 3-1황미연\n3-4심하은</string>
+    <string name="sundies1_stork_8">스무몇개</string>
+    
+    <string name="sundies1_title_9">필통(2)</string>
+    <string name="sundies1_price_9">200~500원</string>
+    <string name="sundies1_donate_9">송제선 선생님, 3-4성현우</string>
+    <string name="sundies1_stork_9">4개</string>
+    
+    <string name="sundies1_title_10">기타피크</string>
+    <string name="sundies1_price_10">200원</string>
+    <string name="sundies1_donate_10">3-2 김종구</string>
+    <string name="sundies1_stork_10">1개</string>
+    
+    <string name="sundies1_title_11">도장</string>
+    <string name="sundies1_price_11">100원</string>
+    <string name="sundies1_donate_11">송제선 선생님</string>
+    <string name="sundies1_stork_11">1개</string>
+    
+    <string name="sundies1_title_12">마분지(A4 묶음)</string>
+    <string name="sundies1_price_12">1000원</string>
+    <string name="sundies1_donate_12"></string>
+    <string name="sundies1_stork_12">1개</string>
+    
+    <string name="sundies1_title_13">A4색종이</string>
+    <string name="sundies1_price_13">500원</string>
+    <string name="sundies1_donate_13">정은남 선생님</string>
+    <string name="sundies1_stork_13">1개</string>
+    
+    <string name="sundies1_title_14">스톱워치</string>
+    <string name="sundies1_price_14">500원</string>
+    <string name="sundies1_donate_14">2-3류희원</string>
+    <string name="sundies1_stork_14">1개</string>
+    
+    <string name="sundies1_title_15">악세서리서랍</string>
+    <string name="sundies1_price_15">500원</string>
+    <string name="sundies1_donate_15">-</string>
+    <string name="sundies1_stork_15">1개</string>
+    
+    <string name="sundies1_title_16">풀</string>
+    <string name="sundies1_price_16">200원</string>
+    <string name="sundies1_donate_16">-</string>
+    <string name="sundies1_stork_16">1개</string>
+    
+    <!-- 생활용품 -->
+    <string name="sundies2_title_1">네온안마기</string>
+    <string name="sundies2_price_1">3000원</string>
+    <string name="sundies2_donate_1">3-1 황미연</string>
+    <string name="sundies2_stork_1">1개</string>
+    
+    <string name="sundies2_title_2">도자기 컵</string>
+    <string name="sundies2_price_2">1000원</string>
+    <string name="sundies2_donate_2">3-1 황다운</string>
+    <string name="sundies2_stork_2">1개</string>
+    
+    <string name="sundies2_title_3">두피마사지 기기</string>
+    <string name="sundies2_price_3">500원</string>
+    <string name="sundies2_donate_3">3-2 김재훈</string>
+    <string name="sundies2_stork_3">1개</string>
+    
+    <string name="sundies2_title_4">도라에몽선풍기</string>
+    <string name="sundies2_price_4">1000원</string>
+    <string name="sundies2_donate_4">-</string>
+    <string name="sundies2_stork_4">1개</string>
+    
+    <string name="sundies2_title_5">머리빗</string>
+    <string name="sundies2_price_5">100원</string>
+    <string name="sundies2_donate_5">-</string>
+    <string name="sundies2_stork_5">5개</string>
+    
+    <string name="sundies2_title_6">베게</string>
+    <string name="sundies2_price_6">1000원</string>
+    <string name="sundies2_donate_6">2-3 류희원</string>
+    <string name="sundies2_stork_6">1개</string>
+    
+    <string name="sundies2_title_7">손거울</string>
+    <string name="sundies2_price_7">500원</string>
+    <string name="sundies2_donate_7">-</string>
+    <string name="sundies2_stork_7">-개</string>
+    
+    <string name="sundies2_title_8">산책용 개 줄</string>
+    <string name="sundies2_price_8">-</string>
+    <string name="sundies2_donate_8">3-2 간희철</string>
+    <string name="sundies2_stork_8">1개</string>
+    
+    <string name="sundies2_title_9">수저세트</string>
+    <string name="sundies2_price_9">700원</string>
+    <string name="sundies2_donate_9">-</string>
+    <string name="sundies2_stork_9">3개</string>
+    
+    <string name="sundies2_title_10">스포츠 물병</string>
+    <string name="sundies2_price_10">500원</string>
+    <string name="sundies2_donate_10">3-2 양애리</string>
+    <string name="sundies2_stork_10">1개</string>
+    
+    <string name="sundies2_title_11">응급키트</string>
+    <string name="sundies2_price_11">2000원</string>
+    <string name="sundies2_donate_11">정은남 선생님</string>
+    <string name="sundies2_stork_11">1개</string>
+    
+    <string name="sundies2_title_12">액자</string>
+    <string name="sundies2_price_12">500,1000원</string>
+    <string name="sundies2_donate_12">-</string>
+    <string name="sundies2_stork_12">2개</string>
+    
+    <string name="sundies2_title_13">이수시개통</string>
+    <string name="sundies2_price_13">300원</string>
+    <string name="sundies2_donate_13"></string>
+    <string name="sundies2_stork_13">1개</string>
+    
+    <string name="sundies2_title_14">키티선풍기</string>
+    <string name="sundies2_price_14">500원</string>
+    <string name="sundies2_donate_14"></string>
+    <string name="sundies2_stork_14">1개</string>
+    
+    <string name="sundies2_title_15">팔토시</string>
+    <string name="sundies2_price_15">500원</string>
+    <string name="sundies2_donate_15"></string>
+    <string name="sundies2_stork_15">1개</string>
+    
+    <string name="sundies2_title_16">푸우시계</string>
+    <string name="sundies2_price_16">1000원</string>
+    <string name="sundies2_donate_16">-</string>
+    <string name="sundies2_stork_16">1개</string>
+    
+    <string name="sundies2_title_17">흡연자용 기능성 치약</string>
+    <string name="sundies2_price_17">500원</string>
+    <string name="sundies2_donate_17">3-2 김종구</string>
+    <string name="sundies2_stork_17">1개</string>
+    
+
+    <!-- 스포츠용품 -->
+    <string name="sundies3_title_1">배드민턴 라켓(2)</string>
+    <string name="sundies3_price_1">2000원</string>
+    <string name="sundies3_donate_1">권대륜선생님, 정은남선생님</string>
+    <string name="sundies3_stork_1">2개</string>
+    
+    <string name="sundies3_title_2">MASK＆SNORKEL</string>
+    <string name="sundies3_price_2">3000원</string>
+    <string name="sundies3_donate_2">3-2 민경준</string>
+    <string name="sundies3_stork_2">2개</string>
+    
+    <string name="sundies3_title_3">모래 주머니</string>
+    <string name="sundies3_price_3">500원</string>
+    <string name="sundies3_donate_3">3-3 장윤우</string>
+    <string name="sundies3_stork_3">1개</string>
+    
+    <string name="sundies3_title_4">침낭</string>
+    <string name="sundies3_price_4">5000원</string>
+    <string name="sundies3_donate_4">3-1 배정원</string>
+    <string name="sundies3_stork_4">1개</string>
+    
+    <string name="sundies3_title_5">야구글러브</string>
+    <string name="sundies3_price_5">2000원</string>
+    <string name="sundies3_donate_5"></string>
+    <string name="sundies3_stork_5">2개</string>
+    
+    <string name="sundies3_title_6">축구공,농구공</string>
+    <string name="sundies3_price_6">5000원</string>
+    <string name="sundies3_donate_6">3학년부</string>
+    <string name="sundies3_stork_6">여러개</string>
+    
+    <string name="sundies3_title_7">야구공, 탁구공(11피스)</string>
+    <string name="sundies3_price_7">500원, 1000원</string>
+    <string name="sundies3_donate_7">-</string>
+    <string name="sundies3_stork_7">2개</string>
+
+    
+    <!-- 의류/패션잡화 -->
+    <!-- 상하의 -->
+    <string name="clothes1_title_1">카라티</string>
+    <string name="clothes1_price_1">1000원</string>
+    <string name="clothes1_donate_1">3-2 백요한,최소영,김종구</string>
+    <string name="clothes1_stork_1">3개</string>
+    
+    <string name="clothes1_title_2">티셔츠</string>
+    <string name="clothes1_price_2">1000원</string>
+    <string name="clothes1_donate_2">3-2 서정원,김종구,최관오 등</string>
+    <string name="clothes1_stork_2">10개</string>
+    
+    <string name="clothes1_title_3">축구유니폼 상하의</string>
+    <string name="clothes1_price_3">각각 3000원</string>
+    <string name="clothes1_donate_3">-</string>
+    <string name="clothes1_stork_3">1세트</string>
+    
+    <string name="clothes1_title_4">디키즈 점퍼</string>
+    <string name="clothes1_price_4">7000원</string>
+    <string name="clothes1_donate_4">-</string>
+    <string name="clothes1_stork_4">1개</string>
+    
+    <string name="clothes1_title_5">자켓</string>
+    <string name="clothes1_price_5">1000원</string>
+    <string name="clothes1_donate_5"></string>
+    <string name="clothes1_stork_5">1개</string>
+    
+    <string name="clothes1_title_6">자켓</string>
+    <string name="clothes1_price_6">3000원</string>
+    <string name="clothes1_donate_6"></string>
+    <string name="clothes1_stork_6">1개</string>
+    
+    <string name="clothes1_title_7">자켓</string>
+    <string name="clothes1_price_7">7000원</string>
+    <string name="clothes1_donate_7">3-3 임유택</string>
+    <string name="clothes1_stork_7">1개</string>
+    
+    <string name="clothes1_title_8">바지</string>
+    <string name="clothes1_price_8">1000~3000원</string>
+    <string name="clothes1_donate_8">-</string>
+    <string name="clothes1_stork_8">11개</string>
+    
+    <string name="clothes1_title_9">후드티</string>
+    <string name="clothes1_price_9">2000원</string>
+    <string name="clothes1_donate_9">-</string>
+    <string name="clothes1_stork_9">1개</string>
+    
+    
+
+    
+    <!-- 체육복/기타 -->
+    <string name="clothes3_title_1">체육복</string>
+    <string name="clothes3_price_1">-</string>
+    <string name="clothes3_donate_1">-</string>
+    <string name="clothes3_stork_1">-개</string>
+    
+    <string name="clothes3_title_2">체육복바지</string>
+    <string name="clothes3_price_2">-</string>
+    <string name="clothes3_donate_2">-</string>
+    <string name="clothes3_stork_2">1개</string>
+    
+    <string name="clothes3_title_3">체육복바지(회색)</string>
+    <string name="clothes3_price_3">-</string>
+    <string name="clothes3_donate_3">3-2 백요한</string>
+    <string name="clothes3_stork_3">1개</string>
+    
+    <string name="clothes3_title_4">샤워가운</string>
+    <string name="clothes3_price_4">1000원</string>
+    <string name="clothes3_donate_4">3-2 김예지</string>
+    <string name="clothes3_stork_4">1개</string>
+
+    
+    <!-- 패션잡화 -->
+    <string name="clothes4_title_1">가방</string>
+    <string name="clothes4_price_1">7000원</string>
+    <string name="clothes4_donate_1">-</string>
+    <string name="clothes4_stork_1">1개</string>
+    
+    <string name="clothes4_title_2">미니가방</string>
+    <string name="clothes4_price_2">-</string>
+    <string name="clothes4_donate_2">문예지 선생님</string>
+    <string name="clothes4_stork_2">1개</string>
+    
+    <string name="clothes4_title_3">귀마개</string>
+    <string name="clothes4_price_3">1000원</string>
+    <string name="clothes4_donate_3">3-2 윤이나, 문예지 선생님</string>
+    <string name="clothes4_stork_3">2개</string>
+    
+    <string name="clothes4_title_4">모자</string>
+    <string name="clothes4_price_4">1000원</string>
+    <string name="clothes4_donate_4"></string>
+    <string name="clothes4_stork_4">5개</string>
+    
+    <string name="clothes4_title_5">털모자</string>
+    <string name="clothes4_price_5">1000원</string>
+    <string name="clothes4_donate_5">문예지 선생님, 3-4 박희성</string>
+    <string name="clothes4_stork_5">2개</string>
+    
+    <string name="clothes4_title_6">남색 단화(225mm)</string>
+    <string name="clothes4_price_6">3000원</string>
+    <string name="clothes4_donate_6">3-2 김예지</string>
+    <string name="clothes4_stork_6">1개</string>
+    
+    <string name="clothes4_title_7">뽀로로실내화</string>
+    <string name="clothes4_price_7">1000원</string>
+    <string name="clothes4_donate_7">-</string>
+    <string name="clothes4_stork_7">1개</string>
+    
+    <string name="clothes4_title_8">워커</string>
+    <string name="clothes4_price_8">-</string>
+    <string name="clothes4_donate_8">3-3 임유택</string>
+    <string name="clothes4_stork_8">1개</string>
+    
+    <string name="clothes4_title_9">장갑</string>
+    <string name="clothes4_price_9">-</string>
+    <string name="clothes4_donate_9">3-1 황미연</string>
+    <string name="clothes4_stork_9">1개</string>
+    
+    <string name="clothes4_title_10">지갑</string>
+    <string name="clothes4_price_10">500, 1000원</string>
+    <string name="clothes4_donate_10">3-3 송지애, 3-4 홍소라</string>
+    <string name="clothes4_stork_10">2개</string>
+    
+    <string name="clothes4_title_11">카드지갑</string>
+    <string name="clothes4_price_11">-</string>
+    <string name="clothes4_donate_11">3-4 심하은, 홍소라</string>
+    <string name="clothes4_stork_11">2개</string>
+
+    <!-- 뷰티/악세서리 -->
+    <!-- 뷰티 -->
+    <string name="cosmetic1_title_1">SKINFOOD</string>
+    <string name="cosmetic1_price_1">3000원</string>
+    <string name="cosmetic1_donate_1">문예지선생님</string>
+    <string name="cosmetic1_stork_1">1개</string>
+    
+    <string name="cosmetic1_title_2">망고버터 립밤</string>
+    <string name="cosmetic1_price_2">1000원</string>
+    <string name="cosmetic1_donate_2">-</string>
+    <string name="cosmetic1_stork_2">33개</string>
+
+    
+    <string name="cosmetic1_title_4">매니큐어</string>
+    <string name="cosmetic1_price_4">500원</string>
+    <string name="cosmetic1_donate_4">-</string>
+    <string name="cosmetic1_stork_4">3개</string>
+    
+    <string name="cosmetic1_title_5">미스트</string>
+    <string name="cosmetic1_price_5">3000원</string>
+    <string name="cosmetic1_donate_5">오훈미 선생님</string>
+    <string name="cosmetic1_stork_5">1개</string>
+    
+    <string name="cosmetic1_title_6">바디오일</string>
+    <string name="cosmetic1_price_6">3000원</string>
+    <string name="cosmetic1_donate_6">문예지 선생님</string>
+    <string name="cosmetic1_stork_6">1개</string>
+    
+    <string name="cosmetic1_title_7">선크림</string>
+    <string name="cosmetic1_price_7">500원</string>
+    <string name="cosmetic1_donate_7">-</string>
+    <string name="cosmetic1_stork_7">1개</string>
+    
+    <string name="cosmetic1_title_8">허브데이 폼클렌징</string>
+    <string name="cosmetic1_price_8">미정 (2000원 이하 예정)</string>
+    <string name="cosmetic1_donate_8">3-2 박세우</string>
+    <string name="cosmetic1_stork_8">12개</string>
+    
+    <string name="cosmetic1_title_9">풋 미스트</string>
+    <string name="cosmetic1_price_9">2000원</string>
+    <string name="cosmetic1_donate_9">3-1 최유림</string>
+    <string name="cosmetic1_stork_9">1개</string>
+    
+    <string name="cosmetic1_title_10">핸드 크림</string>
+    <string name="cosmetic1_price_10">2000원</string>
+    <string name="cosmetic1_donate_10">정은남 선생님</string>
+    <string name="cosmetic1_stork_10">1개</string>
+
+    <!-- 뷰티소품/기기 -->
+    <string name="cosmetic2_title_1">페이스 롤러</string>
+    <string name="cosmetic2_price_1">300, 500원</string>
+    <string name="cosmetic2_donate_1">-</string>
+    <string name="cosmetic2_stork_1">2개</string>
+    
+    <string name="cosmetic2_title_2">목재 페이스 롤러</string>
+    <string name="cosmetic2_price_2">500원</string>
+    <string name="cosmetic2_donate_2">-</string>
+    <string name="cosmetic2_stork_2">4개</string>
+    
+    <string name="cosmetic2_title_3">헤어롤</string>
+    <string name="cosmetic2_price_3">200, 500원</string>
+    <string name="cosmetic2_donate_3">-</string>
+    <string name="cosmetic2_stork_3">12개</string>
+
+    <!-- 악세서리 -->
+    <string name="cosmetic3_title_1">CONVERSE 핸드폰고리</string>
+    <string name="cosmetic3_price_1">-</string>
+    <string name="cosmetic3_donate_1">3-2 김종구</string>
+    <string name="cosmetic3_stork_1">1개</string>
+    
+    <string name="cosmetic3_title_2">스마트폰 케이스</string>
+    <string name="cosmetic3_price_2">-3000, 500원</string>
+    <string name="cosmetic3_donate_2">-</string>
+    <string name="cosmetic3_stork_2">2개</string>
+    
+    <string name="cosmetic3_title_3">스마트폰거치대, 고리</string>
+    <string name="cosmetic3_price_3">500원, 100원</string>
+    <string name="cosmetic3_donate_3">-</string>
+    <string name="cosmetic3_stork_3">2개</string>
+    
+    <string name="cosmetic3_title_4">버섯 지휘봉</string>
+    <string name="cosmetic3_price_4">-</string>
+    <string name="cosmetic3_donate_4">문예지 선생님</string>
+    <string name="cosmetic3_stork_4">1개</string>
+    
+    <string name="cosmetic3_title_5">사랑의 열매</string>
+    <string name="cosmetic3_price_5">-</string>
+    <string name="cosmetic3_donate_5">정은남 선생님</string>
+    <string name="cosmetic3_stork_5">1개</string>
+    
+    <string name="cosmetic3_title_6">머리끈, 띠, 집게</string>
+    <string name="cosmetic3_price_6">100, 200원</string>
+    <string name="cosmetic3_donate_6">-</string>
+    <string name="cosmetic3_stork_6">12개</string>
+    
+    <string name="cosmetic3_title_7">이어폰</string>
+    <string name="cosmetic3_price_7">1000, 3000원</string>
+    <string name="cosmetic3_donate_7">-</string>
+    <string name="cosmetic3_stork_7">2개</string>
+    
+    <!-- 음반 -->
+    <string name="cosmetic4_title_1">2PM 앨범</string>
+    <string name="cosmetic4_price_1">3000원</string>
+    <string name="cosmetic4_donate_1">-</string>
+    <string name="cosmetic4_stork_1">1개</string>
+    
+    <string name="cosmetic4_title_2">네미시스 앨범</string>
+    <string name="cosmetic4_price_2">1000원</string>
+    <string name="cosmetic4_donate_2">-</string>
+    <string name="cosmetic4_stork_2">1개</string>
+    
+    <string name="cosmetic4_title_3">디럭스 에디션</string>
+    <string name="cosmetic4_price_3">1000원</string>
+    <string name="cosmetic4_donate_3">-</string>
+    <string name="cosmetic4_stork_3">1개</string>
+    
+    <string name="cosmetic4_title_4">에픽하이 앨범</string>
+    <string name="cosmetic4_price_4">500원</string>
+    <string name="cosmetic4_donate_4">-</string>
+    <string name="cosmetic4_stork_4">1개</string>
+    
+    <string name="cosmetic4_title_5">플라시보 앨범</string>
+    <string name="cosmetic4_price_5">1000원</string>
+    <string name="cosmetic4_donate_5">-</string>
+    <string name="cosmetic4_stork_5">1개</string>
+    
+</resources>

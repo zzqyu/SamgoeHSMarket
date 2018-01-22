@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DOLdevelop.samgoe_market"
+    android:versionCode="1003"
+    android:versionName="@string/version" >
+    
+   <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name="com.DOLdevelop.samgoe_market.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Home.Home_Activity"></activity>
+        <activity android:name=".Home.Project1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Home.Project2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name="CategoryList"></activity>
+        <activity android:name=".Workbook.Workbook_List" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name="info"></activity>
+        <activity android:name="setting" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name="splash"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar"></activity>
+        <activity android:name=".Book.Book_List" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Clothes_List" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Sundies_List" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Cosmetic_List" android:theme="@style/Theme.Styled"></activity>
+        <!-- 문제집 -->
+        <!-- 수능문제집 -->
+        <activity android:name=".Workbook.Item_Workbook1_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook1_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook1_8" android:theme="@style/Theme.Styled"></activity>
+        <!-- 수학문제집 -->
+        <activity android:name=".Workbook.Item_Workbook2_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook2_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook2_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook2_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook2_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook2_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook2_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook2_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook2_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook2_5" android:theme="@style/Theme.Styled"></activity>
+        <!-- 언어문제집 -->
+        <activity android:name=".Workbook.Item_Workbook3_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook3_10" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook3_10" android:theme="@style/Theme.Styled"></activity>
+        
+        <!-- 영어문제집 -->
+        <activity android:name=".Workbook.Item_Workbook4_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_8"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_9"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook4_10"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook4_10" android:theme="@style/Theme.Styled"></activity>
+        
+        <!-- 사탐문제집 -->
+        <activity android:name=".Workbook.Item_Workbook5_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook5_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook5_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook5_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook5_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook5_3" android:theme="@style/Theme.Styled"></activity>
+       
+        <!-- 과탐문제집 -->
+        <activity android:name=".Workbook.Item_Workbook6_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook6_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook6_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook6_2" android:theme="@style/Theme.Styled"></activity>
+       
+        
+        <!-- 기타 -->
+        <activity android:name=".Workbook.Item_Workbook7_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Item_Workbook7_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Workbook.Image_Workbook7_7" android:theme="@style/Theme.Styled"></activity>
+        
+        
+        <!-- 도서 -->
+        <!-- 소설/수필 -->
+        
+        <activity android:name=".Book.Item_Book1_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book1_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book1_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book1_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book1_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book1_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book1_6" android:theme="@style/Theme.Styled"></activity>
+        
+		<!-- 과학도서 -->
+		<activity android:name=".Book.Item_Book2_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book2_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book2_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book2_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book2_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book2_3" android:theme="@style/Theme.Styled"></activity>
+				    
+		<!-- 만화/판타지 -->
+	    <activity android:name=".Book.Item_Book3_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book3_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book3_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book3_2" android:theme="@style/Theme.Styled"></activity>
+		    
+		<!-- 시/동화 -->
+	    <activity android:name=".Book.Item_Book4_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book4_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book4_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book4_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book4_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book4_3" android:theme="@style/Theme.Styled"></activity>
+		    
+		<!-- 자기계발서/진로 -->
+	    <activity android:name=".Book.Item_Book5_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book5_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Item_Book5_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Book.Image_Book5_2" android:theme="@style/Theme.Styled"></activity>
+       
+        <!-- 문구/생활용품 -->
+    	<!-- 문구 -->
+    	<activity android:name=".Sundies.Item_Sundies1_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_10" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_10" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_11" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_11" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_12" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_12" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_13" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_13" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_14" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_14" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_15" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_15" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies1_16" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies1_16" android:theme="@style/Theme.Styled"></activity>
+        
+        <!-- 생활용품 -->
+    	<activity android:name=".Sundies.Item_Sundies2_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_8" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_9" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_10" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_10" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_11" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_11" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_12" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_12" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies2_13" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_13" android:theme="@style/Theme.Styled"></activity>
+	    <activity android:name=".Sundies.Item_Sundies2_14" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_14" android:theme="@style/Theme.Styled"></activity>
+	    <activity android:name=".Sundies.Item_Sundies2_15" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_15" android:theme="@style/Theme.Styled"></activity>
+	    <activity android:name=".Sundies.Item_Sundies2_16" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_16" android:theme="@style/Theme.Styled"></activity>
+	    <activity android:name=".Sundies.Item_Sundies2_17" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies2_17" android:theme="@style/Theme.Styled"></activity>
+	    
+        <!-- 스포츠용품 -->
+    	<activity android:name=".Sundies.Item_Sundies3_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_1" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_2" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_3" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_4" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_5" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_6" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Item_Sundies3_7" android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Sundies.Image_Sundies3_7" android:theme="@style/Theme.Styled"></activity>	
+        
+        <!-- 의류/패션잡화 -->
+        <!-- 상하의 -->        
+         <activity android:name=".Clothes.Item_Clothes1_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_3" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_4" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_5" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_6" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_7" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_8"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_8" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes1_9"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes1_9" android:theme="@style/Theme.Styled"></activity>
+        
+        <!-- 체육복/기타 -->        
+         <activity android:name=".Clothes.Item_Clothes3_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes3_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes3_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes3_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes3_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes3_3" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes3_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes3_4" android:theme="@style/Theme.Styled"></activity>
+        
+        <!-- 패션잡화 -->        
+         <activity android:name=".Clothes.Item_Clothes4_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_3" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_4" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_5" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_6" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_7" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_8"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_8" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_9"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_9" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_10"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_10" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Clothes.Item_Clothes4_11"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Clothes.Image_Clothes4_11" android:theme="@style/Theme.Styled"></activity>
+         
+        
+        <!-- 뷰티/악세서리 -->
+        <!-- 뷰티 -->        
+         <activity android:name=".Cosmetic.Item_Cosmetic1_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_4" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_5" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_6" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_7" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_8"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_8" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_9"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_9" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic1_10"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic1_10" android:theme="@style/Theme.Styled"></activity>
+ 		<!-- 뷰티소품/기기 -->        
+         <activity android:name=".Cosmetic.Item_Cosmetic2_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic2_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic2_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic2_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic2_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic2_3" android:theme="@style/Theme.Styled"></activity>  
+        
+        <!-- 뷰티 -->        
+         <activity android:name=".Cosmetic.Item_Cosmetic3_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_3" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_4" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_5"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_5" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_6"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_6" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic3_7"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic3_7" android:theme="@style/Theme.Styled"></activity>
+     
+        <!-- 음반 -->        
+         <activity android:name=".Cosmetic.Item_Cosmetic4_1"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic4_1" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic4_2"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic4_2" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic4_3"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic4_3" android:theme="@style/Theme.Styled"></activity>
+         <activity android:name=".Cosmetic.Item_Cosmetic4_4"  android:theme="@style/Theme.Styled"></activity>
+        <activity android:name=".Cosmetic.Image_Cosmetic4_4" android:theme="@style/Theme.Styled"></activity>
+        
+     
+     </application>
+
+</manifest>
